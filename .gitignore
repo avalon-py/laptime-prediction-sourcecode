@@ -17,6 +17,7 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+.ipynb_checkpoints
 
 # Environment Variables & Secrets
 .env
