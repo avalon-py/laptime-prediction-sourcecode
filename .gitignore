@@ -1,0 +1,27 @@
+# FastF1 Cache & Large Data Folders
+cache/
+fastf1_cache/
+*.pkl
+*.sqlite
+
+# Python Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python Byte-compiled / Cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment Variables & Secrets
+.env
+.env.*
+! .env.example
+
+# IDEs and System Files
+.vscode/
+.idea/
+.DS_Store
