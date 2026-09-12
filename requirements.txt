@@ -1,0 +1,34 @@
+# --- Data acquisition ---
+fastf1==3.4.0
+
+# --- Core data handling ---
+pandas==2.2.3
+numpy==1.26.4
+pyarrow==17.0.0          # Parquet read/write engine for pandas
+
+# --- Classical ML (baseline models, preprocessing, metrics, splits) ---
+scikit-learn==1.5.2
+
+# --- Deep learning / TFT ---
+torch==2.4.1
+pytorch-lightning==2.4.0     # required training loop wrapper for pytorch-forecasting
+pytorch-forecasting==1.1.1   # TFT implementation
+tensorboard==2.18.0          # training logs/metrics visualization for pytorch-lightning
+
+# --- Hyperparameter tuning ---
+optuna==4.0.0
+
+# --- Deployment / inference optimization ---
+onnx==1.16.2
+onnxruntime==1.19.2          # swap for onnxruntime-gpu if training/inference on CUDA
+
+# --- Visualization (EDA, quantile bands, calibration plots) ---
+matplotlib==3.9.2
+plotly==5.24.1
+
+# --- Dashboard (for the live streaming demo) ---
+streamlit==1.39.0
+
+# --- Utilities ---
+tqdm==4.66.5                 # progress bars for long FastF1 pulls
+python-dotenv==1.0.1         # env var handling if you add API keys/secrets later

@@ -3,12 +3,14 @@ cache/
 fastf1_cache/
 *.pkl
 *.sqlite
+dataset/
 
 # Python Virtual Environments
 .venv/
 venv/
 ENV/
 env/
+f1-laptime-prediction
 
 # Python Byte-compiled / Cache files
 __pycache__/
