@@ -4,6 +4,7 @@ fastf1_cache/
 *.pkl
 *.sqlite
 dataset/
+data/
 
 # Python Virtual Environments
 .venv/
